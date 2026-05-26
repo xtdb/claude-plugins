@@ -1,0 +1,18 @@
+{
+  "name": "xtdb-plugins",
+  "owner": {
+    "name": "XTDB",
+    "email": "hello@xtdb.com"
+  },
+  "metadata": {
+    "description": "XTDB plugin marketplace for Claude Code",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "gradle-tests",
+      "description": "Specialized Gradle test runner and failure-report parser.",
+      "source": "./plugins/gradle-tests"
+    }
+  ]
+}

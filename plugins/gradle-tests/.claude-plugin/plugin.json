@@ -1,0 +1,5 @@
+{
+  "name": "gradle-tests",
+  "version": "0.1.0",
+  "description": "Specialized Gradle test runner and failure-report parser"
+}
