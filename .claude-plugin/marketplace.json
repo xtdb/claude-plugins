@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "gradle-tests",
-      "description": "Specialized Gradle test runner and failure-report parser.",
+      "description": "Specialized Gradle test runner that relays test failures without the build cruft.",
       "source": "./plugins/gradle-tests"
     }
   ]

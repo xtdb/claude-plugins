@@ -11,6 +11,6 @@ Plugin marketplace for [Claude Code](https://docs.anthropic.com/en/docs/claude-c
 
 ## Plugins
 
-- **gradle-tests** — specialized Gradle test runner and failure-report parser.
-  Delegates `./gradlew` execution and HTML report parsing so the parent agent stays focused on diagnosis and fixes.
+- **gradle-tests** — specialized Gradle test runner that relays test failures without the build cruft.
+  Delegates `./gradlew` execution and returns stack traces, assertion diffs and captured output verbatim, with Gradle's build scaffolding stripped, so the parent agent stays focused on diagnosis and fixes.
   Works in any Gradle project.
