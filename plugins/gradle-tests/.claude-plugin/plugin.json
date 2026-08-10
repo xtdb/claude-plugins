@@ -1,5 +1,5 @@
 {
   "name": "gradle-tests",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Specialized Gradle test runner that relays test failures without the build cruft"
 }
